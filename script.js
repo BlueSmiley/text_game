@@ -1,7 +1,7 @@
 $(function(){
-  $("#blanks").hide();
-  $("#blanks").click(function(){
-    $("#blanks").show();
+  $(".blanks").hide();
+  $(".blanks").click(function(){
+    $(".blanks").show();
   });
 
 });
