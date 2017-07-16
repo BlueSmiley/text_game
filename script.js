@@ -1,6 +1,6 @@
 $(function(){
   $(".blanks").click(function(){
-    $(".blanks").show();
+    document.getElementByClassName(blanks).style.property = "visible"
   });
 
 });
