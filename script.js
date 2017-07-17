@@ -1,5 +1,6 @@
 
 $(function(){
- $("span").children("span.blanks").css({"color": "red"});
- $("p").hide();
+ $("button").click(function(){
+  $("span").children("span.blanks").text("test");
+ });
 });
