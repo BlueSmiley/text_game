@@ -1,6 +1,6 @@
 
 $(function(){
- $("button").click(function(){
-  $("span").children("span.blanks").text("test");
+ $("button").click(function(event){
+  $("span").children("span.blanks").text(event.target.text());
  });
 });
