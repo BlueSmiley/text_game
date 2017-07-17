@@ -2,7 +2,7 @@
 $(function(){
  var currentLine;
  
- $("span.sentence").dblclick(funtion(event){
+ $("span.sentence").dblclick(function(event){
      currentLine = event.target.id;                  
   });
  
