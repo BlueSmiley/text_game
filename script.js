@@ -7,6 +7,7 @@ $(function(){
       $("#" + currentLine).css("color","black");
      }
      currentLine = $(event.target).parent().addBack().filter(".sentence").attr(id);
+     console.log(currentLine);
      //currentLine = event.target.id;
      $("#" + currentLine).css("color","red");
   });
