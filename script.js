@@ -2,11 +2,12 @@
 $(function(){
  var currentLine;
  
- $("span.sentence").click(function(event){
+ $("span").click(function(event){
      if(currentLine){
       $("#" + currentLine).css("color","black");
      }
-     currentLine = event.target.id;
+     currentLine = $(event.target).parent().addBack("span.sentence").attr(id);
+     //currentLine = event.target.id;
      $("#" + currentLine).css("color","red");
   });
  
